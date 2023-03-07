@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heart</title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      font-size: 60px;
+    }
+    span{
+      color: white;
+    }
+  .heart{
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+  .box,.box2{
+    color: white;
+  }
+  .foot{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+  }
+  .box1{
+    animation: 2s box1 infinite alternate linear;
+  }
+   @keyframes box1{
+     from{
+       transform: scale(0.7);
+     }
+     to{
+       transform: scale(1);
+     }
+   }
+  </style>
+</head>
+
+<body>
+ <div class="heart">
+   <div class="box">I
+   </div>
+  <div class="box1"> ❤️
+  </div>
+  <div class="box2">U</div>
+ </div>
+ <footer class="foot">
+   Copyright ©️: Plabon khan
+ </footer>
+</body>
+
+</html>
